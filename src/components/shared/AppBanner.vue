@@ -84,15 +84,18 @@
     </div>
 
     <!-- Banner right illustration -->
-    <div class="w-full md:w-2/3 text-right float-right">
-  <img
-    v-if="theme === 'light'"
-    src="@/assets/images/rovs.png"
-    alt="Developer"
-    class="rounded-full"
-  />
-  <img v-else src="@/assets/images/rovs.png" alt="Developer" class="rounded-full"/>
+    <div class="w-full md:w-2/3 text-center md:text-right float-right">
+  <div class="flex justify-center md:justify-end">
+    <img
+      v-if="theme === 'light'"
+      src="@/assets/images/rovs.png"
+      alt="Developer"
+      class="rounded-md w-48 h-48 md:w-auto md:h-auto md:max-w-md md:max-h-md md:rounded-full"
+    />
+    <img v-else src="@/assets/images/rovs.png" alt="Developer" class="rounded-full w-48 h-48 md:w-auto md:h-auto md:max-w-md md:max-h-md"/>
+  </div>
 </div>
+
 
   </section>
 </template>
