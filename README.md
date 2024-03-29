@@ -1,18 +1,4 @@
-<h2 align="center">
-    Portfolio Website with Vue.js & Darkmode<br/>
-    <a href="https://sunnyguan.netlify.app" target="_blank">Demo</a> <br/>
-    <a href="https://github.com/sunnynano/react-portfolio" target="_blank">React version Repo</a>
-</h2>
-<div align="center">
-    <img alt="screenshot" src="./images/screenshot.png" /> 
-</div>
-<br/>
-<div align="center">
-    <img alt="React.js" src="./images/powered-by-vue.js.svg" /> &nbsp;
-    <img alt="TailwindCSS" src="./images/styled-with-tailwind.svg" /> &nbsp;
-    <img alt="OpenSource" src="./images/open-source.svg" />
-</div>
-<br/>
+
 
 ## Features
 
